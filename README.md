@@ -1,4 +1,4 @@
-# Magento 2.4.x Docker + Xdebug(Phpstorm) + MailHog + Multiple Website + Blackfire + Redis/Redisinsight + Elasticsearch + Rabbitmq
+# Magento 2.4.x Docker + Elasticsearch
 
 Magento 2.4.6 Docker Environment
 
