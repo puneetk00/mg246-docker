@@ -29,7 +29,7 @@ Magento 2.4.6-p2 Docker Setup:
     * Docker > Preferences > Resources > Advanced : at least 4 or 5 CPUs and 16.0 GB RAM
     * Local machine have alteast 32GB RAM(Recommended)    
 
-2. Clone magento2-docker repository and Build the docker Images:
+2. Clone mg246-docker repository and Build the docker Images:
 
         * Goto "magento2-docker" folder and and create "magento246" folder(mkdir magento246)
         * docker-compose build
