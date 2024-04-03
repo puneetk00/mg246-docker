@@ -64,7 +64,13 @@ Magento 2.4.6-p2 Docker Setup:
            
            * Install Magento Instance in magento246 ( https://devdocs.magento.com/guides/v2.4/install-gde/composer.html )
           
-          	    1. composer create-project --repository-url=https://repo.magento.com/ magento/project-enterprise-edition=2.4.6-p2 .
+          	        Add your key before create your project. Some time public key and private key not aksing and througing message "you haven't provide your magento authentication keys"
+			composer config -g http-basic.repo.magento.com $MAGENTO_PUBLIC_KEY $MAGENTO_PRIVATE_KEY
+
+			Example
+			composer config -g http-basic.repo.magento.com 0ff912c89b6b970e417526cf75077be2 c70c62bbd23387504ca76a0e20be5091
+
+			1. composer create-project --repository-url=https://repo.magento.com/ magento/project-enterprise-edition=2.4.6-p2 .
           		    * enter your Magento authentication keys
           		    
           		2. Install M2 via CLI(/var/www/magento246):
