@@ -1,4 +1,5 @@
 # Magento 2.4.x Docker + Elasticsearch
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/lHYDdvRQWgI/0.jpg)](https://www.youtube.com/watch?v=lHYDdvRQWgI)
 
 Magento 2.4.6 Docker Environment
 
